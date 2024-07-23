@@ -1,7 +1,23 @@
 body{
 background-color: yellow; 
 color: aliceblue;
-
+}
+#nav{
+    background-image: url(/estilo/Design\ sem\ nome.png);
+    background-size: 150PX;
+    height: 150px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+#segundo{
+    background-image: url(/estilo/hamburgue.png);
+    background-size: 150px;
+    height: 150px;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    
 }
 #principal{
     background-color:black;
@@ -22,3 +38,4 @@ h2{
 h1{
     font-size: 80px;
 }
+
