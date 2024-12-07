@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 nav{
-    background-image: url(logo.png);
+    background-image: url(/cardapiochat/logo.png);
     background-size: 180PX;
     height: 150px;
     background-position-x: right;
@@ -113,4 +113,20 @@ footer {
 
 #copyhide {
     font-size: 14px;
+}
+.preco{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ff6347;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+    transform: translateX(0);
+}
+
+.preco:hover{
+    background-color: #128c7e;
+    transform: translateX(5px);
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
