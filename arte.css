@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 nav{
-    background-image: url(/cardapiochat/logo.png);
+    background-image: url(logo.png);
     background-size: 180PX;
     height: 150px;
     background-position-x: right;
